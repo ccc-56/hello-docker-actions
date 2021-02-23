@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: hello-docker-actions@v1
+      uses: ccc-66/hello-docker-actions@v1
       with:
         who-to-greet: 'Mona the Octocat'
     # Use the output from the `hello` step
